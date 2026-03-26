@@ -53,6 +53,7 @@ Widget build(BuildContext context) {
     body: todos.isEmpty
         ? const Center(
           child: Text(
+            'ჯერ Task არ გაქვს',
             style: TextStyle(fontSize: 18),
           ),
         )
